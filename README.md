@@ -28,20 +28,30 @@ The Hunt.io SQL interface empowers threat hunters and analysts to explore a mass
 
 ## 2. Hunt SQL Concepts
 - **Perform Threat Hunting:** Query and analyze events quickly to detect patterns or anomalies.
+
 - **Analyze Historical Data:** Use relative time expressions to filter events and aggregation functions to determine activity periods.
+
 - **Monitor Specific Indicators:** Focus on key indicators such as phishing URLs, certificate issues, or unusual file names.
+
 - **Aggregate Data:** Group and summarize results to reveal trends or count unique events.
+
 - **Query by IP, ASN, and Hosting Company:** Filter events based on specific IP addresses, IP ranges, ASNs, or hosting company domains.
 
 ---
 
 ## 3. Using the Web Interface
 - **Accessing SQL:** Click the **SQL** option in the left navigation bar.
+
 - **Samples Dropdown:** Select sample queries from the dropdown (top right of the query box) to get started.
+
 - **Run Query:** Click **Run Query** to execute your query. A spinner indicates processing, and results appear under the **Results** tab.
+
 - **Format Query:** Use the **Format Query** button to automatically reformat your query for readability.
+
 - **Copy and Clear:** Use the copy icon to quickly copy your query, or click the trash can icon to clear the query box.
+
 - **Autocomplete:** Autocomplete assists in finding specific field names as you type.
+
 - **API Access:** For further details, refer to [Hunt API Documentation](https://apidocs.hunt.io).
 
 ---
