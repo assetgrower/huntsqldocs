@@ -17,7 +17,6 @@ Welcome to the Hunt.io SQL Documentation for the web portal. This guide explains
 10. [Advanced Query Examples and Nuances](#advanced-query-examples-and-nuances)
 11. [Additional Resources](#additional-resources)
 12. [Change Log](#change-log)
-13. [Internal ToDo](#internal-todo)
 
 ---
 
@@ -100,7 +99,7 @@ Each field in a dataset includes metadata that indicates:
 | **protocol**                | Raw protocol scanning data from internet probes.                                                                         | IP, port, TTL, fingerprint.                                                                                                |
 | **ssh**                     | Scan data from hosts with exposed SSH services.                                                                          | Host, port, banner, versions, key values.                                                                                |
 | **malware**                 | Information on Command and Control (C2) servers tracked by Hunt.                                                         | Malware name, ASN information, IP, hostname, scan details.                                                               |
-| **certificates**            | TLS/SSL certificate events with full issuer and subject details.                                                         | Subject common name, issuer details, timestamps. *(JA4X fields are defined here but are currently not accessible via SQL.)* |
+| **certificates**            | TLS/SSL certificate events with full issuer and subject details.                                                         | Subject common name, issuer details, timestamps.|
 | **open_directories**        | Data on exposed open directories, including hosts, file names, and directory structures.                                  | Hosts, file names, directory structures, file URLs.                                                                     |
 | **open_directory_filenames**| File data from open directories that were not downloaded via AttackCapture.                                               | Full file names and URLs for pivoting.                                                                                   |
 | **phishing**                | Records of phishing sites and URLs tracked by proprietary scanners.                                                      | URLs, timestamps, verdicts.                                                                                                |
